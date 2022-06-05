@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry
- * this function print if is positive, zero or negative
- * Return: 0
+ * main - determins if number is positive, zero or negative
+ * Return: Always 0 (Success)
  */
 
 int main(void)
