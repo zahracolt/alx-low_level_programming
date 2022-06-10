@@ -12,18 +12,15 @@
  */
 int main(void)
 {
-	      long int n, fp;
+	      long int n, i;
 
               n = 612852475143;
-
-              for (fp = 2; fp <= n; fp++)
-	      {
-		       if (n % fp == 0)
-		       {
-			      n /= fp;
-			      fp--;
-		       }
+              for (i = 2; i < n; i++)
+              {
+                  while (n % i == 0)
+                  n = n / i;
 	      }
-	      printf("%ld\n", fp);
+	
+	      printf("%lu\n", n);;
 	      return (0);
 }
