@@ -1,7 +1,3 @@
-/*
- * File: 100-prime_factor.c
-*/
-
 #include <stdio.h>
 
 /**
@@ -28,4 +24,3 @@ int main(void)
 	printf("%ld\n", larg_prim);
 	return (0);
 }
-          
