@@ -1,0 +1,3 @@
+# Readme
+
+Static Libraries
