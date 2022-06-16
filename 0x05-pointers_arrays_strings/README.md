@@ -1,3 +1,1 @@
-# Pointer Array Strings
-
-pointing values to locations 
+**0x05. C - Pointers, arrays and strings**
