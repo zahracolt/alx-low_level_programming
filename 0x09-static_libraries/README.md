@@ -1,3 +1,0 @@
-# Readme
-
-Static Libraries
